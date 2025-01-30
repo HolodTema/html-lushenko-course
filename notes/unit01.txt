@@ -5,4 +5,21 @@ emmet - extension for vs code for html code snippets
 
 <!DOCTYPE html> says that this html is html5
 
+<html lang="en"> - browser shows pages with the language of user. To be in the top of the browser, you need to choose language of your site.
 
+browsers automatically set styles for all elements - default margins, colors ...
+
+<b> - bold
+<i> - italic
+<span> - special inline element for custom text styles
+by default <span> has no styles - you need to create them
+
+<hr/> - horizontal line
+
+<br/> - counterpart of \n
+
+<img> is inline by default
+alt attr for <img> is required in html5
+everybody leaves alt empty, because in production all the images will be accessible
+
+<iframe> can include video from youtube or map from yandex.maps etc.
