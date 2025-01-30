@@ -1,0 +1,18 @@
+Unit 03:
+
+80% of pages is <div>
+
+block element is match_parent in width by default
+<div> has no paddings and margins by default
+
+inline element is wrap_content in width and height
+inline elements:
+span, img, a, b, i, button
+!!! inline elements can have only horizontal margins !!!
+!!! inline elements ignore height style !!!
+
+display style changes element mode: block or inline or ...
+
+if we want to leave inline elements wrap-content in width, but we want to change their vertical margins or height, we can use display: inline-block
+
+display: inline-block - makes inline element still wrap_content, but with vertical margin and height styles
