@@ -1,0 +1,27 @@
+ff - snippet for font-family
+fw - snippet for font-weight
+fs - snippet for font-style
+fz - snippet for font-size
+
+serif-fonts - fonts for serious docs, it is good for paper
+sans-serif = without-serif - more fascionable for the Internet
+helvetica - standart MacOS font
+freesans - linux font
+roboto - android font
+
+for many fonts it is good to use google-fonts. It is no good to use fonts from folder
+
+font-weight values:
+300-400 - normal
+500-600 - semi-bold
+700-800 - bold
+if font does not support the value, the browser adapt font-weight to acceptable value
+
+text-transform (uppercase) - text decoration style
+
+
+color values:
+1. hex format #ffffff
+2. rgba format rgba(11, 11, 11, 50)
+3. rgb format rgb(11, 11, 11)
+and more...
