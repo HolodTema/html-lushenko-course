@@ -1,0 +1,8 @@
+index.html - wide naming. Many hostings try to open index.html - exactly this name by default.
+File with name index (index.php or index.html) is downloaded by default
+
+emmet - extension for vs code for html code snippets
+
+<!DOCTYPE html> says that this html is html5
+
+
