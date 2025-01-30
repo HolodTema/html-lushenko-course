@@ -1,0 +1,94 @@
+Unit 04 - elements positioning
+
+-------------------------------------------------------
+PS. in css we can make selector with certain attr values:
+input[type="checkbox"] {
+	...
+}
+this selector matches all the input elements-checkboxes
+--------------------------------------------------------
+
+4 most difficult topics in html:
+float
+flexbox
+grid
+position
+
+in html there are flow - order of elements in html - from top to bottom, which css cannot change
+
+by default in html elements in flow cannot overlap each other
+position attr can change flow rules
+
+
+-----------------------------------------------------------
+
+POSITION STATIC
+by default position=static
+static - do not break flow, default behaviour
+
+-----------------------------------------------------------
+
+POSITION FIXED
+position: fixed - element is positioning from browser window, it does not depend from other
+elements.
+With position: fixed we can use properties top, bottom, left and right for offsets
+
+But what can happen if we set top: and bottom: the same moment? If element has set height, top property has more priority, than bottom. So, only top will be confirmed.
+
+Top > bottom
+Left > right
+
+we can make any element fullscreen:
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
+position: fixed ignores scrolling!
+
+---------------------------------------------------------------
+
+POSITION RELATIVE 
+
+element moves from the start position. 
+Other elements think that the element is still here - in the start place.
+
+----------------------------------------------------------------
+
+POSITION ABSOLUTE
+
+it is like fixed, but:
+
+1. it is scrollable
+2. left right top bottom works from first-found parent with non-static position.
+If there are no such parents, the element is positioning from browser window.
+
+position absolute is ideal if you want to build complex figure inside parent block.
+But position absolute is enemy of mobile-screens
+
+------------------------------------------------------------------
+
+Z-INDEX
+(elevation in android)
+
+z-index < 0 - it can be under background or under background-color of the page
+
+z-index works only in non-static position
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
